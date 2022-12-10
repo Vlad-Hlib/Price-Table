@@ -22,6 +22,7 @@ body {
   }
 }
 .price-card {
+  position: relative;
   width: 380px;
   height: 770px;
   background-color: #334247;
@@ -108,7 +109,7 @@ body {
     margin-top: 39px;
     margin-left: 112px;
   }
-  &__table {
+  &__options-list {
     margin-top: 40px;
   }
 }
@@ -132,6 +133,28 @@ tr:nth-child(odd) > td {
 }
 .orange {
   background-color: #ec632a;
+}
+.rectangle {
+  position: absolute;
+  right: -74px;
+  top: -74px;
+  width: 147px;
+  height: 147px;
+  background-color: transparent;
+  border-bottom: 25px solid #dc3f45;
+  border-left: 25px solid transparent;
+  border-right: 25px solid transparent;
+  rotate: (45deg);
+  &-title {
+    position: absolute;
+    color: #fff;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    transform: rotate(45deg);
+    top: 30px;
+    right: 10px;
+  }
 }
 @media screen and (max-width: 1180px) {
   .price-card:nth-last-child(1) {
