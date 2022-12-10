@@ -1,0 +1,156 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  background-color: #141b1c;
+}
+
+.page {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  margin: auto;
+}
+.page__container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 1176px;
+  height: 770px;
+  margin: auto;
+  justify-content: center;
+}
+
+.price-card {
+  width: 380px;
+  height: 770px;
+  background-color: #334247;
+  box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.087466);
+  margin-right: 18px;
+}
+.price-card:nth-last-child(1) {
+  margin-right: 0;
+}
+.price-card__title {
+  margin: 0 auto;
+  margin-top: 33px;
+  width: 100px;
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 30px;
+  text-align: center;
+  color: #ffffff;
+}
+.price-card__title-two {
+  margin-top: 33px;
+  width: 163px;
+}
+.price-card__title-three {
+  width: 176px;
+}
+.price-card__title-small {
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+}
+.price-card__price {
+  margin-top: 33px;
+  width: 380px;
+  height: 105px;
+  background-color: #5bb189;
+  font-weight: 700;
+  font-size: 55px;
+  line-height: 105px;
+  text-align: center;
+  color: #ffffff;
+}
+.price-card__description {
+  width: 327px;
+  font-size: 15px;
+  line-height: 18px;
+  text-align: center;
+  color: #fff;
+  margin: 40px auto 0;
+}
+.price-card__checkmark-green {
+  background-image: url("https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_green.png");
+  height: 13px;
+  width: 15px;
+  display: inline-block;
+  margin: 18px 22px 19px;
+}
+.price-card__checkmark-blue {
+  background-image: url("https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_blue.png");
+  height: 13px;
+  width: 15px;
+  display: inline-block;
+  margin: 18px 22px 19px;
+}
+.price-card__checkmark-orange {
+  background-image: url("https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_orange.png");
+  height: 13px;
+  width: 15px;
+  display: inline-block;
+  margin: 18px 22px 19px;
+}
+.price-card__order-btn {
+  width: 154px;
+  height: 40px;
+  background-color: #5bb189;
+  border: none;
+  border-radius: 20px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  color: #ffffff;
+  margin-top: 39px;
+  margin-left: 112px;
+}
+.price-card__table {
+  margin-top: 40px;
+}
+
+td {
+  height: 50px;
+  width: 380px;
+  font-size: 15px;
+  line-height: 18px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+}
+
+tr:nth-child(odd) > td {
+  background-color: rgba(42, 52, 56, 0.5019607843);
+}
+
+.green {
+  background-color: #5bb189;
+}
+
+.blue {
+  background-color: #3a6ba5;
+}
+
+.orange {
+  background-color: #ec632a;
+}
+
+@media screen and (max-width: 1180px) {
+  .price-card:nth-last-child(1) {
+    margin-top: 50px;
+  }
+}
+@media screen and (max-width: 795px) {
+  .price-card:nth-last-child(2) {
+    margin-top: 50px;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */
