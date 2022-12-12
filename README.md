@@ -1,6 +1,6 @@
 # Layout Sample Project
 
-### [Site link](https://vlad-hlib.github.io/responsive-layout/)
+### [Site link](https://vlad-hlib.github.io/price-table/)
 
 Layout supports mobile (from-400) and desktop (up-to-1440) versions
 
