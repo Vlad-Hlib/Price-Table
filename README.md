@@ -12,4 +12,4 @@ Layout supports mobile (from-400) and desktop (up-to-1440) versions
 - [Sass (Scss)](https://sass-lang.com/)
 - [BEM methodology](https://en.bem.info/methodology/)
 
-### [Author](github.com/Vlad-Hlib)
+### [Author](https://github.com/Vlad-Hlib/)
