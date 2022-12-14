@@ -15,6 +15,7 @@ body {
   width: 100vw;
   height: 100vh;
   margin: auto;
+  overflow-x: hidden;
 }
 .page__container {
   display: flex;
@@ -116,11 +117,8 @@ body {
 }
 .price-card__options-list {
   margin-top: 40px;
-  position: relative;
-  left: -2px;
 }
-
-td {
+.price-card__options-list-item {
   height: 50px;
   width: 380px;
   font-size: 15px;
@@ -130,8 +128,7 @@ td {
   align-items: center;
   padding: 0;
 }
-
-tr:nth-child(odd) > td {
+.price-card__options-list-item:nth-child(odd) {
   background-color: rgba(42, 52, 56, 0.5019607843);
 }
 
@@ -178,6 +175,9 @@ tr:nth-child(odd) > td {
 @media screen and (max-width: 795px) {
   .price-card:nth-last-child(2) {
     margin-top: 50px;
+  }
+  .price-card:nth-last-child(1) {
+    margin: 50px 25px 0 5px;
   }
 }
 
