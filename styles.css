@@ -39,11 +39,11 @@ body {
 }
 .price-card__title {
   margin: 0 auto;
-  margin-top: 33px;
+  margin-top: 43px;
   width: 100px;
   font-weight: 700;
   font-size: 35px;
-  line-height: 43px;
+  line-height: 30px;
   text-align: center;
   color: #ffffff;
 }
